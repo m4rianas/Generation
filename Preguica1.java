@@ -16,6 +16,7 @@ public class Preguica1 extends Animais1{
 		this.sobe = sobe;
 	}
 	
-	
-
+	public void imprimirInfo() {
+		System.out.println("Nome do animal: " +getNome()+ "\nIdade do animal: " +getIdade()+ "\nQual som emite: " +getSom()+ "\nHabilidade: "+getSobe());
+	}
 }
